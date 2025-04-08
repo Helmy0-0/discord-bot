@@ -1,5 +1,7 @@
 import Groq from "groq-sdk";
 import 'dotenv/config';
+dotenv.config();
+
 
 const groq = new Groq({ apiKey: process.env.AI_API });
 

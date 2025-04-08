@@ -1,4 +1,5 @@
 import 'dotenv/config';
+dotenv.config();
 const { TOKEN, CLIENT_ID, GUILD_ID } = process.env;
 import { Client, GatewayIntentBits, Events } from 'discord.js';
 import { getGroqChatCompletion } from './ai.js';
